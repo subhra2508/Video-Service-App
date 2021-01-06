@@ -1,2 +1,2 @@
 # Video-Service-App
-## This is made by Django,Bootstrap,React.
+## This is made by Django,Bootstrap,and Reactjs.
