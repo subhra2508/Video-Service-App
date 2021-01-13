@@ -2,29 +2,29 @@
 ## This is made by Django,Bootstrap,and Reactjs.
 ## Model Architechture
  
-Membership
+### Membership
 - slug
 - type  (free,pro,enterprise)
 - price
 - stripe plan id
 
-UserMembership
+### UserMembership
     - user                      (foreignkey to default user)
     - stripe customer id
     - membership type            (foreignkey to membership)
 
-Subscription
+### Subscription
     - user membership
     - stripe subscription id (foreignkey to Usermembership)
     - active
 
-Course
+### Course
     - slug
     - title
     - description
     - allowed memberships   (foreignkey to membership)
 
-Lesson
+### Lesson
     - slug
     - title
     - course  (foreign to course)
