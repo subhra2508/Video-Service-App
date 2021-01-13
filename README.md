@@ -1,12 +1,12 @@
 # Video-Service-App
 ## This is made by Django,Bootstrap,and Reactjs.
 ## Model Architechture
-######
+ 
 Membership
-    ---slug
-    ---type  (free,pro,enterprise)
-    ---price
-    ---stripe plan id
+---slug
+---type  (free,pro,enterprise)
+---price
+---stripe plan id
 
 UserMembership
     -user                      (foreignkey to default user)
