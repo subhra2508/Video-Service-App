@@ -1,5 +1,5 @@
 # Video-Service-App
-## This is made by Django,Bootstrap,and Reactjs.
+## This is made by Django,Bootstrap .
 ## Model Architechture
  
 ### Membership
